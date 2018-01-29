@@ -1,11 +1,19 @@
 nav {
     background: #fff;
     margin: 50px;
-    padding: 20px;
+    padding: 10px;
+}
+
+.li {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: small;
 }
 
 .header {
     background: #ababab;
+    position: relative;
+    padding-top: 20px;
 }
 
 h1 {
@@ -40,11 +48,7 @@ ul {
     color: rgb(255, 255, 255);
     padding-left: 60px;
     list-style-type: square;
-}
-
-li {
-    color: rgb(255, 255, 255);
-    font-size: small;
+    position: relative;
 }
 
 button {
@@ -61,4 +65,11 @@ button {
 .phone {
     position: absolute;
     right: 100px;
+    height: 400px;
+    width: 300px;
+}
+
+a {
+    color: #000;
+    font-variant: small-caps;
 }
