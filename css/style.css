@@ -2,23 +2,36 @@ nav {
     background: #fff;
     margin: 50px;
     padding: 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
-.li {
+.ul1 {
+    margin-top: 15px;
+}
+
+.li1 {
     display: inline-block;
     color: rgb(255, 255, 255);
-    font-size: small;
+    font-size: 15px;
 }
 
 .header {
-    background: #ababab;
-    position: relative;
+    background-image: url(./../images/background.png);
+    background-color: #ababab;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
+main {
+    margin-top: 20px;
+}
 h1 {
     color: rgb(255, 255, 255);
-    background: #ababab;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-right: 10px;
@@ -26,17 +39,33 @@ h1 {
     padding-left: 40px;
 }
 
-div {
-    color: rgb(255, 255, 255);
-    margin: 25px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
+.section1 {
+    padding-top: 20px;
 }
 
-p {
-    color: rgb(255, 255, 255);
+.h2 {
+    display: flex;
+    justify-content: center;
+    color: #1ab798;
+    font-size: 20px;
+}
+
+.h3 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.div3 {
+    font-size: 13px;
+    width: 268px;
+    height: 166px;
+}
+
+.p1 {
+    color: #fff;
     margin: 0px;
     padding-top: 0px;
     padding-right: 10px;
@@ -44,25 +73,34 @@ p {
     padding-left: 40px;
 }
 
-ul {
+.p2 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    width: 600px;
+    color: #282528;
+    font-size: 18px;
+}
+
+.ul2 {
     color: rgb(255, 255, 255);
     padding-left: 60px;
-    list-style-type: square;
-    position: absolute;
+    list-style: square;
+    position: relative;
+    font-size: 10px;
 }
 
 button {
-    background: #0bb07e;
     margin-top: 60px;
     padding-top: 5px;
     padding-right: 20px;
     padding-bottom: 5px;
     padding-left: 20px;
-    color: rgb(255, 255, 255);
     margin-left: inherit;
 }
 
-.phone {
+.phones {
     position: absolute;
     right: 100px;
     height: 400px;
@@ -72,4 +110,14 @@ button {
 a {
     color: #000;
     font-variant: small-caps;
+}
+
+.section2 {
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
 }
